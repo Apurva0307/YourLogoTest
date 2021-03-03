@@ -54,6 +54,7 @@ public class TestBase {
 			
 		}
 		System.out.println("GIT Pull");
+		System.out.println("GIT Pull 2");
 		driver.manage().timeouts().implicitlyWait(testUtils.implicitlywait, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(testUtils.pageload, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
