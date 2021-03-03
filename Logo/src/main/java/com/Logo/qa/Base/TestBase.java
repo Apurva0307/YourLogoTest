@@ -53,7 +53,7 @@ public class TestBase {
 			driver =new FirefoxDriver();
 			
 		}
-		
+		System.out.println("GIT Pull");
 		driver.manage().timeouts().implicitlyWait(testUtils.implicitlywait, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(testUtils.pageload, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
